@@ -197,12 +197,12 @@ color:var(--primary-light);
     text-align: center;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.35) ;
-    background-image: url("assets/scout1img.jpeg");
+    background-image: url("assets/scout\ nw.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     background-blend-mode: multiply;
   }
   
@@ -237,7 +237,7 @@ color:var(--primary-light);
     flex: 1;
     max-width: 60%;
     text-align: left;
-    padding: 0rem;
+    padding: 40px;
     
   
   }
@@ -292,15 +292,14 @@ color:var(--primary-light);
     flex: 1;
     border-radius: 20px;
     overflow: hidden;
-    width: 75%;
-    height: 70vh;
-    background: linear-gradient(137.9deg, #9400D4 1.44%, #E73280 50.66%, #FF4400 100%);
+    
 
   }
  
   .Features1-image img,.Features2-image img {
-    width: 115%;
-    height: 80vh;
+    width: 500px;
+    height: 500px;
+   
     display: block;
   }
   
