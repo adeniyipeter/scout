@@ -197,7 +197,7 @@ color:var(--primary-light);
     text-align: center;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.35) ;
-    background-image: url("assets/scout\ nw.jpeg");
+    background-image: url("assets/SACLE.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,16 +472,34 @@ color:var(--primary-light);
     height: auto; 
     padding: 1rem;
   }
-    
+    p{
+      font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5%;
+text-align: center;
+
+    }
   }
 
   @media (max-width: 290px) {
-    .hero{
+    /* .hero{
        max-width: 290px;
     
-    }
+    } */
 
   }
  
   
-  
+  /* ===== Image Responsiveness ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== Prevent Horizontal Scroll ===== */
+html, body {
+  overflow-x: hidden;
+}
