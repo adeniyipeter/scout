@@ -168,4 +168,25 @@ letter-spacing: 0%;
   opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+  .footer-content {
+    margin-bottom: 8rem;
+  }
+.footer-background-logo{
+  top:84%;
+}
+  .footer-nav {
+    justify-content: center;
+  }
+
+  .footer-nav-column {
+    margin-bottom: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
 
