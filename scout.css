@@ -197,7 +197,7 @@ color:var(--primary-light);
     text-align: center;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.35) ;
-    background-image: url("assets/SACLE.jpeg");
+    background-image: url("assets/scout\ nw.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ color:var(--primary-light);
     flex: 1;
     max-width: 60%;
     text-align: left;
-    padding: 40px;
+    padding: 63px;
     
   
   }
@@ -246,7 +246,8 @@ color:var(--primary-light);
     color: white;
     font-family: Oswald;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 56px;
+    line-height: 68px;
   
     letter-spacing: 0%;
   }
